@@ -14,7 +14,7 @@ public class DBC {
         String password = "1111";
 
         // DB에 접속할 주소정보
-        String url = "jdbc:oracle:thin:@106.243.194.229:3333:XE";
+        String url = "jdbc:oracle:thin:@localhsot:3333:XE";
 
         try {
             // (1) 오라클 데이터베이스 드라이버(ojdbc8)
